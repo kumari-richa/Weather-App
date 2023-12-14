@@ -1,0 +1,87 @@
+*{
+    margin: 20px;
+    padding: 220;
+    box-sizing: border-box;
+}
+body{
+
+    background-image: url(clouds-4k.jpg);
+}
+.container{
+    width: 600px;
+    margin: 100px;
+    padding: 40px;
+
+}
+.inputs{
+
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background:plum;
+    height: 150px;
+
+}
+.inputs inputs[type="text"]
+{
+    height: 20rem;
+    width: 20rem;
+    background: aquamarine;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-right: 3px;
+    border-radius: 4px;
+}
+.inputs inputs[type="submit"]
+{
+height: 3rem;
+width: 6rem;
+background: blanchedalmond;
+font-weight: bolder;
+color: azure;
+font-size: 1rem;
+margin-top: 20px;
+border: none;
+border-radius: 5px;
+
+}
+
+.display{
+
+    text-align: center;
+    width: 500px;
+    color: cornsilk;
+}
+.wrapper{
+    margin: 0 9rem;
+    background-color: none;
+    height: 45vh;
+    margin: 50px;
+    border-radius: 2px;
+}
+.wrapper h2{
+    
+    padding: 5PX 0;
+    text-align: center;
+    background:blue;
+    color: azure;
+}
+.wrapper p{
+   margin: 200px 50px;
+   margin-right: 20px;
+   text-align: left;
+   color: blueviolet;
+   font-size: 23px;
+}
+.wrapper h2 span{
+ font-size: 26px;
+ color: rgb(20, 101, 133);
+}
+.wrapper p span{
+    color:purple;
+    font-size: 25px;
+}
